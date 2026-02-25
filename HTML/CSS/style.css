@@ -1,0 +1,41 @@
+
+*{
+    margin: 0px;
+    top: 0px;
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 22px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap:60px ;
+    align-items: center;
+}
+
+.content ul{
+    display: flex;
+    flex-direction: row;
+    gap: 42px;
+}
+
+.content #options_menu li{
+    text-decoration: none;
+    list-style: none;
+}
+.content #options_menu li a{
+    text-decoration: none;
+    list-style: none;
+    color:rgb(133, 133, 133);
+}
+
+.nav_actions a{
+    text-decoration: none;
+    list-style: none;
+    color:rgb(133, 133, 133);
+}
